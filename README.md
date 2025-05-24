@@ -109,4 +109,4 @@ The final phase focuses on automation using Azure DevOps:
 
 ## 📄 License
 
-This project is part of a course and intended for educational purposes.
+This project is intended for educational purposes only.
