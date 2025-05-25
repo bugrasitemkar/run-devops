@@ -80,7 +80,10 @@ The final phase focuses on automation using Azure DevOps:
 /Shopping.Client        # ASP.NET MVC application
 /Shopping.API           # ASP.NET Core Web API with MongoDB
 /docker-compose.yml     # Compose all services for local dev
-/infra                  # Kubernetes manifests and pipeline YAMLs
+/k8s                    # Kubernetes manifests
+/pipelines              # Pipeline YAMLs
+/aks                    # Azure Kubernetes Service
+
 ```
 
 ---
