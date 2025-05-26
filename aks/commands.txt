@@ -35,13 +35,13 @@ Create a resource group
 az group create --name myResourceGroup --location westeurope
 --
 Create an Azure Container Registry
-az acr create --resource-group myResourceGroup --name shoppingacr --sku Basic
+az acr create --resource-group myResourceGroup --name shoppingacrbugra --sku Basic
 --
 Enable Admin Account for ACR Pull
-az acr update -n shoppingacr --admin-enabled true
+az acr update -n shoppingacrbugra --admin-enabled true
 --
 Log in to the container registry
-az acr login --name shoppingacr
+az acr login --name shoppingacrbugra
 Login Succeeded
 --
 Tag a container image
